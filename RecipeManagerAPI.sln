@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloFreshGo", "HelloFreshGo\HelloFreshGo.csproj", "{B6856289-EF07-4F43-8587-BEBA4A175CD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloFreshGo.Entities", "HelloFreshGo.Entities\HelloFreshGo.Entities.csproj", "{CD4B1190-1562-441D-8D5A-7FB36AEEF0FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloFreshGo.Business", "HelloFreshGo.Business\HelloFreshGo.Business.csproj", "{95D67C46-C9F0-4CC8-95D4-B5D3AF8803EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloFreshGo.UnitTests", "HelloFreshGo.UnitTests\HelloFreshGo.UnitTests.csproj", "{9AD5A69B-D323-4085-B092-C0316ECB081D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloFreshGo.IntegrationTests", "HelloFreshGo.IntegrationTests\HelloFreshGo.IntegrationTests.csproj", "{B63F74F8-C430-458D-81AF-E3D769E2B57A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloFreshGo.Util", "HelloFreshGo.Util\HelloFreshGo.Util.csproj", "{B21E3C51-0DFC-4E45-A314-CB3050F3E3D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6856289-EF07-4F43-8587-BEBA4A175CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6856289-EF07-4F43-8587-BEBA4A175CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6856289-EF07-4F43-8587-BEBA4A175CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6856289-EF07-4F43-8587-BEBA4A175CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4B1190-1562-441D-8D5A-7FB36AEEF0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4B1190-1562-441D-8D5A-7FB36AEEF0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4B1190-1562-441D-8D5A-7FB36AEEF0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4B1190-1562-441D-8D5A-7FB36AEEF0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D67C46-C9F0-4CC8-95D4-B5D3AF8803EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D67C46-C9F0-4CC8-95D4-B5D3AF8803EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D67C46-C9F0-4CC8-95D4-B5D3AF8803EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D67C46-C9F0-4CC8-95D4-B5D3AF8803EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD5A69B-D323-4085-B092-C0316ECB081D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD5A69B-D323-4085-B092-C0316ECB081D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD5A69B-D323-4085-B092-C0316ECB081D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD5A69B-D323-4085-B092-C0316ECB081D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63F74F8-C430-458D-81AF-E3D769E2B57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63F74F8-C430-458D-81AF-E3D769E2B57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63F74F8-C430-458D-81AF-E3D769E2B57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63F74F8-C430-458D-81AF-E3D769E2B57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21E3C51-0DFC-4E45-A314-CB3050F3E3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21E3C51-0DFC-4E45-A314-CB3050F3E3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21E3C51-0DFC-4E45-A314-CB3050F3E3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21E3C51-0DFC-4E45-A314-CB3050F3E3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D918B355-9B4F-4BF6-B4DA-8F67EF841349}
+	EndGlobalSection
+EndGlobal

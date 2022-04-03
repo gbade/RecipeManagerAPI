@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\GBADEBO\\Source\\Repos\\gbade-hfgo-backend-test\\HelloFreshGo\\HelloFreshGo.IntegrationTests\\HelloFreshGo.IntegrationTests.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

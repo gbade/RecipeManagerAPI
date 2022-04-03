@@ -1,0 +1,61 @@
+
+version: '3.1'
+
+networks: 
+  hellofreshapi-dev:
+    driver: bridge
+
+volumes:
+  datafiles: 
+
+services:
+  # Application container
+
+  db:
+    image: mysql
+    volumes: 
+      - datafiles:/var/lib/mysql
+      - ./sql-scripts/hellofreshgo.sql :/docker-entrypoint-initdb.d/hellofreshgo.sql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'hellofreshgo'
+      MYSQL_USER: 'root'
+      MYSQL_PASSWORD: 'hellofreshgo'
+      MYSQL_ROOT_PASSWORD: 'hellofreshgo'
+      
+    ports:
+        - '3306:3306'
+    expose:
+      - '3306'
+    networks: 
+      - hellofreshapi-dev
+  
+
+  hellofreshapi:
+    image: hellofreshapi:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on: 
+      - db  
+    ports:
+      - "8888:80"
+    restart: always
+    environment:
+      DB_CONNECTION_STRING: "Server=db;Port=3306;Database=hellofreshgo;User ID=root; Password=hellofreshgo;"
+    networks: 
+      - hellofreshapi-dev
+
+  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links: 
+      - db:db
+    ports:
+      - 8081:80
+    environment:
+      MYSQL_USER: 'root'
+      MYSQL_ROOT_PASSWORD: hellofreshgo
+    networks: 
+      - hellofreshapi-dev

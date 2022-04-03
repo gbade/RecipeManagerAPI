@@ -1,0 +1,9 @@
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Entities\bin\Debug\netstandard2.0\HelloFreshGo.Entities.deps.json
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Entities\bin\Debug\netstandard2.0\HelloFreshGo.Entities.dll
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Entities\bin\Debug\netstandard2.0\HelloFreshGo.Entities.pdb
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Entities\obj\Debug\netstandard2.0\HelloFreshGo.Entities.csproj.CoreCompileInputs.cache
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Entities\obj\Debug\netstandard2.0\HelloFreshGo.Entities.AssemblyInfoInputs.cache
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Entities\obj\Debug\netstandard2.0\HelloFreshGo.Entities.AssemblyInfo.cs
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Entities\obj\Debug\netstandard2.0\HelloFreshGo.Entities.dll
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Entities\obj\Debug\netstandard2.0\HelloFreshGo.Entities.pdb
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Entities\obj\Debug\netstandard2.0\HelloFreshGo.Entities.csprojAssemblyReference.cache

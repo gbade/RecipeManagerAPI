@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HelloFreshGo</name>
+    </assembly>
+    <members>
+        <member name="M:HelloFreshGo.Controllers.HelloFreshController.ListRecipes">
+            <summary>
+            Retrieve all existing recipes.
+            </summary>
+            <returns>A string status</returns>
+        </member>
+        <member name="M:HelloFreshGo.Controllers.HelloFreshController.Create(HelloFreshGo.Entities.Models.Recipes)">
+            <summary>
+            Creates a new recipe and then returns a json as response for succesfully adding a recipe.
+            </summary>
+            <param name="model">The model of the recipe to be created</param>
+            <returns>A string status</returns>
+        </member>
+        <member name="M:HelloFreshGo.Controllers.HelloFreshController.GetRecipe(System.Int64)">
+            <summary>
+            Retrieves a recipe by ID.
+            </summary>
+            <param name="id">The ID of the desired recipe</param>
+            <returns>A json containing the required recipe</returns>
+        </member>
+        <member name="M:HelloFreshGo.Controllers.HelloFreshController.UpdateRecipe(System.Int64,HelloFreshGo.Entities.Models.Recipes)">
+            <summary>
+            Retrieves a recipe by ID and then updates properties from the retrieved recipe.
+            </summary>
+            <param name="id">The ID of the desired recipe</param>
+            <param name="update">The ID of the desired recipe</param>
+            <returns>A json containing the updated recipe</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HelloFreshGo.Controllers.HelloFreshController.RateRecipe(System.Int64,HelloFreshGo.Entities.Models.Ratings)" -->
+        <member name="M:HelloFreshGo.Controllers.HelloFreshController.DeleteRecipe(System.Int64)">
+            <summary>
+            Retrieves a recipe by ID and then deletes the retrieved recipe.
+            </summary>
+            <param name="id">The ID of the desired recipe</param>
+            <returns>A json containing the deleted recipe</returns>
+        </member>
+        <member name="M:HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe(System.String,System.String)">
+            <summary>
+            Filters through the list of recipes in record to retrieve the requested recipe by search.
+            </summary>
+            <param name="name">The name by which the user searches for a specific recipe</param>
+            <param name="preptime">when user wamts to search for preptime of recipes in record</param>
+            <returns>A json containing the filtered recipe</returns>
+        </member>
+    </members>
+</doc>

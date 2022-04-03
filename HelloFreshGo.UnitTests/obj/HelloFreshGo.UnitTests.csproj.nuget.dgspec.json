@@ -1,0 +1,406 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.UnitTests/HelloFreshGo.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Business/HelloFreshGo.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Business/HelloFreshGo.Business.csproj",
+        "projectName": "HelloFreshGo.Business",
+        "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Business/HelloFreshGo.Business.csproj",
+        "packagesPath": "/Users/deboayangbile/.nuget/packages/",
+        "outputPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/deboayangbile/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/HelloFreshGo.Entities.csproj": {
+                "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/HelloFreshGo.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/HelloFreshGo.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/HelloFreshGo.Entities.csproj",
+        "projectName": "HelloFreshGo.Entities",
+        "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/HelloFreshGo.Entities.csproj",
+        "packagesPath": "/Users/deboayangbile/.nuget/packages/",
+        "outputPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/deboayangbile/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.UnitTests/HelloFreshGo.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.UnitTests/HelloFreshGo.UnitTests.csproj",
+        "projectName": "HelloFreshGo.UnitTests",
+        "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.UnitTests/HelloFreshGo.UnitTests.csproj",
+        "packagesPath": "/Users/deboayangbile/.nuget/packages/",
+        "outputPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/deboayangbile/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Business/HelloFreshGo.Business.csproj": {
+                "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Business/HelloFreshGo.Business.csproj"
+              },
+              "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/HelloFreshGo.Entities.csproj": {
+                "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/HelloFreshGo.Entities.csproj"
+              },
+              "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo/HelloFreshGo.csproj": {
+                "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo/HelloFreshGo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "GenFu": {
+              "target": "Package",
+              "version": "[1.5.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Util/HelloFreshGo.Util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Util/HelloFreshGo.Util.csproj",
+        "projectName": "HelloFreshGo.Util",
+        "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Util/HelloFreshGo.Util.csproj",
+        "packagesPath": "/Users/deboayangbile/.nuget/packages/",
+        "outputPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Util/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/deboayangbile/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo/HelloFreshGo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo/HelloFreshGo.csproj",
+        "projectName": "HelloFreshGo",
+        "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo/HelloFreshGo.csproj",
+        "packagesPath": "/Users/deboayangbile/.nuget/packages/",
+        "outputPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/deboayangbile/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {
+              "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Business/HelloFreshGo.Business.csproj": {
+                "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Business/HelloFreshGo.Business.csproj"
+              },
+              "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/HelloFreshGo.Entities.csproj": {
+                "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Entities/HelloFreshGo.Entities.csproj"
+              },
+              "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Util/HelloFreshGo.Util.csproj": {
+                "projectPath": "/Users/deboayangbile/Projects/RecipeMgmtAPI/HelloFreshGo/HelloFreshGo.Util/HelloFreshGo.Util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.6, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.0.2105168, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "ZNetCS.AspNetCore.Authentication.Basic": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+﻿<Properties StartupConfiguration="{B6856289-EF07-4F43-8587-BEBA4A175CD5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloFreshGo/appsettings.json">
+    <Files>
+      <File FileName="HelloFreshGo/Controllers/HelloFreshController.cs" Line="1" Column="1" />
+      <File FileName="HelloFreshGo/Extensions/AuthenticationMiddleware.cs" />
+      <File FileName="HelloFreshGo/docker-compose.yml" />
+      <File FileName="HelloFreshGo/logs/hellofreshgo-20190411.txt" />
+      <File FileName="HelloFreshGo/logs/hellofreshgo-20190501.txt" />
+      <File FileName="HelloFreshGo/logs/hellofreshgo-20190421.txt" />
+      <File FileName="HelloFreshGo/logs/hellofreshgo-20190419.txt" />
+      <File FileName="HelloFreshGo/logs/hellofreshgo-20190416.txt" />
+      <File FileName="HelloFreshGo/logs/hellofreshgo-20190414.txt" />
+      <File FileName="HelloFreshGo/logs/hellofreshgo-20190413.txt" />
+      <File FileName="HelloFreshGo/Controllers/ValuesController.cs" />
+      <File FileName="HelloFreshGo.Entities/Models/Ratings.cs" />
+      <File FileName="HelloFreshGo.Entities/Models/Pagination.cs" />
+      <File FileName="HelloFreshGo.Entities/Models/Recipes.cs" />
+      <File FileName="HelloFreshGo.Business/Managers/HelloFreshConfigManager.cs" />
+      <File FileName="HelloFreshGo.Business/Managers/RecipeManager.cs" />
+      <File FileName="HelloFreshGo.Business/Contracts/IRecipeManager.cs" />
+      <File FileName="HelloFreshGo.Business/Contracts/IHelloFreshConfigManager.cs" />
+      <File FileName="HelloFreshGo.UnitTests/HelloFreshGOUnitTest.cs" />
+      <File FileName="HelloFreshGo.IntegrationTests/HelloFreshGOIntegrationTests.cs" />
+      <File FileName="HelloFreshGo/appsettings.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HelloFreshGo" expanded="True" selected="True">
+            <Node name="HelloFreshGo" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="logs" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+            <Node name="HelloFreshGo.Business" expanded="True">
+              <Node name="Contracts" expanded="True" />
+              <Node name="Managers" expanded="True" />
+            </Node>
+            <Node name="HelloFreshGo.Entities" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="HelloFreshGo.IntegrationTests" expanded="True" />
+            <Node name="HelloFreshGo.UnitTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="HelloFreshGo" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HelloFreshGo PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

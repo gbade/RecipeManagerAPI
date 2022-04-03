@@ -1,0 +1,14 @@
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\bin\Debug\netstandard2.0\HelloFreshGo.Business.deps.json
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\bin\Debug\netstandard2.0\HelloFreshGo.Business.dll
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\bin\Debug\netstandard2.0\HelloFreshGo.Business.pdb
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\bin\Debug\netstandard2.0\HelloFreshGo.Entities.dll
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\bin\Debug\netstandard2.0\HelloFreshGo.Entities.pdb
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\obj\Debug\netstandard2.0\HelloFreshGo.Business.csprojAssemblyReference.cache
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\obj\Debug\netstandard2.0\HelloFreshGo.Business.csproj.CoreCompileInputs.cache
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\obj\Debug\netstandard2.0\HelloFreshGo.Business.AssemblyInfoInputs.cache
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\obj\Debug\netstandard2.0\HelloFreshGo.Business.AssemblyInfo.cs
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\obj\Debug\netstandard2.0\HelloFreshGo.Business.csproj.CopyComplete
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\obj\Debug\netstandard2.0\HelloFreshGo.Business.dll
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\obj\Debug\netstandard2.0\HelloFreshGo.Business.pdb
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\GBADEBO\Source\Repos\gbade-hfgo-backend-test\HelloFreshGo\HelloFreshGo.Business\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.xml

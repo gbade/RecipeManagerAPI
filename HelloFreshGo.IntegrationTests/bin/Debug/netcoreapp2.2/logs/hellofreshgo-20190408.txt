@@ -1,0 +1,99 @@
+2019-04-08T00:01:32.5177410+01:00 0HLLRLJT27DIQ [INF] Request starting HTTP/2.0 POST http://localhost/api/hellofresh/recipes/3/rating application/json; charset=utf-8  (ca22a1cb)
+2019-04-08T00:01:32.6728231+01:00 0HLLRLJT27DIQ [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T00:01:32.8487042+01:00 0HLLRLJT27DIQ [INF] Executing endpoint '"HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)"' (500cc934)
+2019-04-08T00:01:32.9508438+01:00 0HLLRLJT27DIQ [INF] Route matched with "{action = \"RateRecipe\", controller = \"HelloFresh\"}". Executing action "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" (a44c0341)
+2019-04-08T00:01:33.4531917+01:00 0HLLRLJT27DIQ [INF] Executing action method "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" with arguments (["3", "HelloFreshGo.Entities.Models.Ratings"]) - Validation state: Valid (4e3479ed)
+2019-04-08T00:01:34.2534838+01:00 0HLLRLJT27DIQ [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None" (9958f5bb)
+2019-04-08T00:01:35.2998930+01:00 0HLLRLJT27DIQ [INF] Executed DbCommand ("20"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `s`.`Id`, `s`.`Difficulty`, `s`.`Name`, `s`.`PrepTime`, `s`.`Vegetarian`
+FROM `Recipes` AS `s`
+WHERE `s`.`Id` = @__id_0
+LIMIT 1" (0723d8ff)
+2019-04-08T00:01:35.8996839+01:00 0HLLRLJT27DIQ [INF] Executed DbCommand ("25"ms) [Parameters=["@p0='?' (DbType = Int64), @p1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `Ratings` (`RecipeId`, `RecipeRating`)
+VALUES (@p0, @p1);
+SELECT `Id`
+FROM `Ratings`
+WHERE ROW_COUNT() = 1
+ AND `Id`=LAST_INSERT_ID();" (0723d8ff)
+2019-04-08T00:01:35.9809113+01:00 0HLLRLJT27DIQ [INF] Executed action method "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2523.6995ms. (50a9e262)
+2019-04-08T00:01:36.0229505+01:00 0HLLRLJT27DIQ [INF] Executing ObjectResult, writing value of type '"HelloFreshGo.Entities.Models.Ratings"'. (8a1b66c8)
+2019-04-08T00:01:36.1162666+01:00 0HLLRLJT27DIQ [INF] Executed action "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" in 3157.9508ms (afa2e885)
+2019-04-08T00:01:36.1171036+01:00 0HLLRLJT27DIQ [INF] Executed endpoint '"HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)"' (99874f2b)
+2019-04-08T00:01:36.1413562+01:00 0HLLRLJT27DIQ [INF] Request finished in 3636.415ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-08T00:01:56.4964951+01:00 0HLLRLK46TS93 [INF] Request starting HTTP/2.0 POST http://localhost/api/hellofresh/recipes/3/rating application/json; charset=utf-8  (ca22a1cb)
+2019-04-08T00:01:56.6567515+01:00 0HLLRLK46TS93 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T00:01:56.9029869+01:00 0HLLRLK46TS93 [INF] Executing endpoint '"HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)"' (500cc934)
+2019-04-08T00:01:57.0061470+01:00 0HLLRLK46TS93 [INF] Route matched with "{action = \"RateRecipe\", controller = \"HelloFresh\"}". Executing action "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" (a44c0341)
+2019-04-08T00:01:57.4539619+01:00 0HLLRLK46TS93 [INF] Executing action method "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" with arguments (["3", "HelloFreshGo.Entities.Models.Ratings"]) - Validation state: Valid (4e3479ed)
+2019-04-08T00:01:58.1750309+01:00 0HLLRLK46TS93 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None" (9958f5bb)
+2019-04-08T00:01:59.2765193+01:00 0HLLRLK46TS93 [INF] Executed DbCommand ("19"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `s`.`Id`, `s`.`Difficulty`, `s`.`Name`, `s`.`PrepTime`, `s`.`Vegetarian`
+FROM `Recipes` AS `s`
+WHERE `s`.`Id` = @__id_0
+LIMIT 1" (0723d8ff)
+2019-04-08T00:01:59.7610699+01:00 0HLLRLK46TS93 [INF] Executed DbCommand ("9"ms) [Parameters=["@p0='?' (DbType = Int64), @p1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `Ratings` (`RecipeId`, `RecipeRating`)
+VALUES (@p0, @p1);
+SELECT `Id`
+FROM `Ratings`
+WHERE ROW_COUNT() = 1
+ AND `Id`=LAST_INSERT_ID();" (0723d8ff)
+2019-04-08T00:01:59.8351299+01:00 0HLLRLK46TS93 [INF] Executed action method "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2374.5764ms. (50a9e262)
+2019-04-08T00:01:59.8755787+01:00 0HLLRLK46TS93 [INF] Executing ObjectResult, writing value of type '"HelloFreshGo.Entities.Models.Ratings"'. (8a1b66c8)
+2019-04-08T00:01:59.9645547+01:00 0HLLRLK46TS93 [INF] Executed action "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" in 2948.2523ms (afa2e885)
+2019-04-08T00:01:59.9651257+01:00 0HLLRLK46TS93 [INF] Executed endpoint '"HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)"' (99874f2b)
+2019-04-08T00:01:59.9858201+01:00 0HLLRLK46TS93 [INF] Request finished in 3500.7672ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-08T00:02:44.3476776+01:00 0HLLRLKIF5RL3 [INF] Request starting HTTP/2.0 POST http://localhost/api/hellofresh/recipes/3/rating application/json; charset=utf-8  (ca22a1cb)
+2019-04-08T00:02:44.5423212+01:00 0HLLRLKIF5RL3 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T00:02:44.7090651+01:00 0HLLRLKIF5RL3 [INF] Executing endpoint '"HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)"' (500cc934)
+2019-04-08T00:02:44.8262262+01:00 0HLLRLKIF5RL3 [INF] Route matched with "{action = \"RateRecipe\", controller = \"HelloFresh\"}". Executing action "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" (a44c0341)
+2019-04-08T00:02:45.2921361+01:00 0HLLRLKIF5RL3 [INF] Executing action method "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" with arguments (["3", "HelloFreshGo.Entities.Models.Ratings"]) - Validation state: Valid (4e3479ed)
+2019-04-08T00:02:46.0252397+01:00 0HLLRLKIF5RL3 [INF] Entity Framework Core "2.2.3-servicing-35854" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None" (9958f5bb)
+2019-04-08T00:02:47.0662413+01:00 0HLLRLKIF5RL3 [INF] Executed DbCommand ("20"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `s`.`Id`, `s`.`Difficulty`, `s`.`Name`, `s`.`PrepTime`, `s`.`Vegetarian`
+FROM `Recipes` AS `s`
+WHERE `s`.`Id` = @__id_0
+LIMIT 1" (0723d8ff)
+2019-04-08T00:02:47.5731612+01:00 0HLLRLKIF5RL3 [INF] Executed DbCommand ("33"ms) [Parameters=["@p0='?' (DbType = Int64), @p1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `Ratings` (`RecipeId`, `RecipeRating`)
+VALUES (@p0, @p1);
+SELECT `Id`
+FROM `Ratings`
+WHERE ROW_COUNT() = 1
+ AND `Id`=LAST_INSERT_ID();" (0723d8ff)
+2019-04-08T00:02:47.6318486+01:00 0HLLRLKIF5RL3 [INF] Executed action method "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2336.0787ms. (50a9e262)
+2019-04-08T00:02:47.6728693+01:00 0HLLRLKIF5RL3 [INF] Executing ObjectResult, writing value of type '"HelloFreshGo.Entities.Models.Ratings"'. (8a1b66c8)
+2019-04-08T00:02:47.7683338+01:00 0HLLRLKIF5RL3 [INF] Executed action "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" in 2931.0321ms (afa2e885)
+2019-04-08T00:02:47.7695351+01:00 0HLLRLKIF5RL3 [INF] Executed endpoint '"HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)"' (99874f2b)
+2019-04-08T00:02:47.7887213+01:00 0HLLRLKIF5RL3 [INF] Request finished in 3457.6559ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-08T00:03:11.1350086+01:00 0HLLRLKQENQIV [INF] Request starting HTTP/2.0 POST http://localhost/api/hellofresh/recipes/3/rating application/json; charset=utf-8  (ca22a1cb)
+2019-04-08T00:03:11.2926254+01:00 0HLLRLKQENQIV [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T00:03:11.4703180+01:00 0HLLRLKQENQIV [INF] Executing endpoint '"HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)"' (500cc934)
+2019-04-08T00:03:11.5824317+01:00 0HLLRLKQENQIV [INF] Route matched with "{action = \"RateRecipe\", controller = \"HelloFresh\"}". Executing action "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" (a44c0341)
+2019-04-08T00:03:12.0187060+01:00 0HLLRLKQENQIV [INF] Executing action method "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" with arguments (["3", "HelloFreshGo.Entities.Models.Ratings"]) - Validation state: Valid (4e3479ed)
+2019-04-08T00:03:12.0247406+01:00 0HLLRLKQENQIV [INF] Executed action method "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 2.3401ms. (50a9e262)
+2019-04-08T00:03:12.0651301+01:00 0HLLRLKQENQIV [INF] Executing ObjectResult, writing value of type '"System.String"'. (8a1b66c8)
+2019-04-08T00:03:12.1347548+01:00 0HLLRLKQENQIV [INF] Executed action "HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)" in 542.6813ms (afa2e885)
+2019-04-08T00:03:12.1367278+01:00 0HLLRLKQENQIV [INF] Executed endpoint '"HelloFreshGo.Controllers.HelloFreshController.RateRecipe (HelloFreshGo)"' (99874f2b)
+2019-04-08T00:03:12.1561117+01:00 0HLLRLKQENQIV [INF] Request finished in 1031.9676ms 400 text/plain; charset=utf-8 (791a596a)
+2019-04-08T00:06:37.3907837+01:00 0HLLRLMNTL4DC [INF] Request starting HTTP/2.0 GET http://localhost/api/hellofresh/recipes/search?preptime=30%20minutes   (ca22a1cb)
+2019-04-08T00:06:37.5725034+01:00 0HLLRLMNTL4DC [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T00:06:37.7522646+01:00 0HLLRLMNTL4DC [INF] Executing endpoint '"HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)"' (500cc934)
+2019-04-08T00:06:37.9178465+01:00 0HLLRLMNTL4DC [INF] Route matched with "{action = \"SearchForRecipe\", controller = \"HelloFresh\"}". Executing action "HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)" (a44c0341)
+2019-04-08T00:06:38.2710156+01:00 0HLLRLMNTL4DC [INF] Executing action method "HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)" with arguments (["", "30 minutes"]) - Validation state: Valid (4e3479ed)
+2019-04-08T00:06:38.8160348+01:00 0HLLRLMNTL4DC [INF] Executed action method "HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 541.3988ms. (50a9e262)
+2019-04-08T00:06:38.8518873+01:00 0HLLRLMNTL4DC [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[HelloFreshGo.Entities.Models.Recipes, HelloFreshGo.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-04-08T00:06:38.9523820+01:00 0HLLRLMNTL4DC [INF] Executed action "HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)" in 1024.6907ms (afa2e885)
+2019-04-08T00:06:38.9543913+01:00 0HLLRLMNTL4DC [INF] Executed endpoint '"HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)"' (99874f2b)
+2019-04-08T00:06:38.9720985+01:00 0HLLRLMNTL4DC [INF] Request finished in 1594.2457ms 200 application/json; charset=utf-8 (791a596a)
+2019-04-08T00:09:18.1754615+01:00 0HLLRLO7R248K [INF] Request starting HTTP/2.0 GET http://localhost/api/hellofresh/recipes/search?name=Efo%20Riro&preptime=1%20hour   (ca22a1cb)
+2019-04-08T00:09:18.3414177+01:00 0HLLRLO7R248K [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2019-04-08T00:09:18.5113276+01:00 0HLLRLO7R248K [INF] Executing endpoint '"HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)"' (500cc934)
+2019-04-08T00:09:18.6311259+01:00 0HLLRLO7R248K [INF] Route matched with "{action = \"SearchForRecipe\", controller = \"HelloFresh\"}". Executing action "HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)" (a44c0341)
+2019-04-08T00:09:18.9873583+01:00 0HLLRLO7R248K [INF] Executing action method "HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)" with arguments (["Efo Riro", "1 hour"]) - Validation state: Valid (4e3479ed)
+2019-04-08T00:09:19.5992193+01:00 0HLLRLO7R248K [INF] Executed action method "HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)", returned result "Microsoft.AspNetCore.Mvc.NotFoundResult" in 608.2127ms. (50a9e262)
+2019-04-08T00:09:19.6566083+01:00 0HLLRLO7R248K [INF] Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'. (8a1b66c8)
+2019-04-08T00:09:19.7516119+01:00 0HLLRLO7R248K [INF] Executed action "HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)" in 1110.86ms (afa2e885)
+2019-04-08T00:09:19.7547880+01:00 0HLLRLO7R248K [INF] Executed endpoint '"HelloFreshGo.Controllers.HelloFreshController.SearchForRecipe (HelloFreshGo)"' (99874f2b)
+2019-04-08T00:09:19.7757185+01:00 0HLLRLO7R248K [INF] Request finished in 1611.0063ms 404 application/problem+json; charset=utf-8 (791a596a)
